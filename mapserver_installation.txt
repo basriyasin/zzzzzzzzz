@@ -1,0 +1,56 @@
+http://anotherdatabaseblog.blogspot.co.id/2012/04/installing-mapserv-on-centos-6.html
+
+yum install -y libpng libpng-devel freetype gd gd-devel zlib giflib-devel gcc libcurl agg agg-devel readline-devel zlib-devel libxml2-devel geos-devel gcc-c++ curl-devel libtiff libgeotiff libjpeg geos libxml2
+
+
+
+tar xvf postgresql-9.1.3.tar.gz
+gdal-1.9.0
+geos-3.3.3
+postgresql-9.1.3.tar.gz
+postgis-2.0.0
+
+
+
+https://ncu.dl.sourceforge.net/project/freetype/freetype2/2.8/freetype-2.8.tar.bz2
+
+wget download.osgeo.org/postgis/source/postgis-2.3.3.tar.gz
+wget http://download.osgeo.org/proj/proj-4.8.0.tar.gz
+wget download.osgeo.org/geos/geos-3.3.3.tar.bz2
+wget http://download.osgeo.org/gdal/2.2.2/gdal-2.2.2RC1.tar.gz
+wget https://github.com/libgd/libgd/releases/download/gd-2.2.5/libgd-2.2.5.tar.gz
+
+wget download.osgeo.org/mapserver/mapserver-6.0.2.tar.gz
+
+
+
+
+
+
+wget download.osgeo.org/postgis/source/postgis-2.0.0.tar.gz download.osgeo.org/proj/proj-4.8.0.tar.gz download.osgeo.org/geos/geos-3.3.3.tar.bz2 download.osgeo.org/gdal/gdal-1.9.0.tar.gz github.com/libgd/libgd/releases/download/gd-2.2.5/libgd-2.2.5.tar.gz
+
+
+
+
+
+
+./configure     --with-ogr=/usr/local/bin/gdal-config \
+                --with-gdal=/usr/local/bin/gdal-config \
+                --with-httpd=/usr/sbin/httpd \
+                --with-wfsclient \
+                --with-wmsclient \
+                --enable-debug \
+                --with-curl-config=/usr/bin/curl-config \
+                --with-proj=/usr/local \
+                --with-tiff \
+                --with-gd=/usr/local \
+                --with-jpeg \
+                --with-freetype=/usr/local/include \
+                --with-threads \
+                --with-wcs \
+                --with-xml2-config=/usr/bin/xml2-config \
+                --with-postgis=/usr/local/pgsql/bin/pg_config \
+                --with-geos=/usr/local/bin/geos-config \
+                --with-sos \
+                --with-agg \
+                --with-agg=/usr/local

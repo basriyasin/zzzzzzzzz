@@ -1,0 +1,37 @@
+    1  passwd
+    2  apt-get update
+    3  apt upgrade
+    4  apt-get update --fix-missing
+    5  sudo apt-get remove libappstream3
+    6  apt-get update --fix-missing
+    7  sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable
+    8  apt update
+    9  apt install -y apache2 php terminator mapserver cgi-mapserver
+   10  apt install -y apache2 php terminator cgi-mapserver
+   11  apt-cache search php
+   12  apt-cache search php | more
+   13  apt-cache search php | grep mod | more
+   14  apt install -y libapache2-mod-php 
+   15  apt install -y libapache2-mod-php php7.0-bcmath php7.0-bz2 php7.0-mbstring php7.0-mcrypt php7.0-zip php-xml
+   16  mapserv
+   17  mapserver
+   18  apt install -y cgi-mapserver mapserver-bin mapserver-doc php5-mapscript python-mapscript && /usr/lib/cgi-bin/mapserv -v
+   19  apt install -y cgi-mapserver mapserver-bin mapserver-doc php-mapscript python-mapscript && /usr/lib/cgi-bin/mapserv -v
+   20  apt install -y cgi-mapserver mapserver-bin mapserver-doc python-mapscript && /usr/lib/cgi-bin/mapserv -v
+   21  cd /usr/lib/cgi-bin/mapserv
+   22  cd /usr/lib/cgi-bin/
+   23  ls
+   24  ll
+   25  less mapserv 
+   26  cd /var/
+   27  ls
+   28  cd www/
+   29  ls
+   30  cd html/
+   31  ll
+   32  cd
+   33  ls
+   34  cd /home/
+   35  ll
+   36  cd bztest/Desktop/
+   37  history > histort.txt

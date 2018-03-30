@@ -19,19 +19,4 @@
    19  apt install -y cgi-mapserver mapserver-bin mapserver-doc php-mapscript python-mapscript && /usr/lib/cgi-bin/mapserv -v
    20  apt install -y cgi-mapserver mapserver-bin mapserver-doc python-mapscript && /usr/lib/cgi-bin/mapserv -v
    21  cd /usr/lib/cgi-bin/mapserv
-   22  cd /usr/lib/cgi-bin/
-   23  ls
-   24  ll
-   25  less mapserv 
-   26  cd /var/
-   27  ls
-   28  cd www/
-   29  ls
-   30  cd html/
-   31  ll
-   32  cd
-   33  ls
-   34  cd /home/
-   35  ll
-   36  cd bztest/Desktop/
-   37  history > histort.txt
+

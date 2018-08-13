@@ -2,7 +2,7 @@
 # ----------------------------------
 # https://github.com/cjcliffe/CubicSDR/wiki/Build-Linux
 apt update
-apt-get install git -y build-essential automake cmake install libpulse-dev libgtk-3-dev git librtlsdr-dev
+apt-get install git -y build-essential automake cmake libpulse-dev libgtk-3-dev git librtlsdr-dev
 
 
 # install SoapySDR
